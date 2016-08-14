@@ -6,6 +6,9 @@
   "scripts": {
     "lint": "standard"
   },
+  "standard" : {
+     "parser": "babel-eslint"
+  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/Jhonbeltran/MyOwnPlatzigram-db.git"
@@ -17,6 +20,7 @@
   },
   "homepage": "https://github.com/Jhonbeltran/MyOwnPlatzigram-db#readme",
   "devDependencies": {
+    "babel-eslint": "^6.1.2",
     "standard": "^7.1.2"
   }
 }
