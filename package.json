@@ -1,0 +1,22 @@
+{
+  "name": "platzigram-db",
+  "version": "1.0.0",
+  "description": "Platzigram database client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Jhonbeltran/MyOwnPlatzigram-db.git"
+  },
+  "author": "Jhonbeltran <jbeltranleon@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jhonbeltran/MyOwnPlatzigram-db/issues"
+  },
+  "homepage": "https://github.com/Jhonbeltran/MyOwnPlatzigram-db#readme",
+  "devDependencies": {
+    "standard": "^7.1.2"
+  }
+}
