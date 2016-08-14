@@ -4,10 +4,11 @@
   "description": "Platzigram database client",
   "main": "index.js",
   "scripts": {
-    "lint": "standard"
+    "lint": "standard",
+    "test": "npm run lint && ava"
   },
-  "standard" : {
-     "parser": "babel-eslint"
+  "standard": {
+    "parser": "babel-eslint"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/Jhonbeltran/MyOwnPlatzigram-db#readme",
   "devDependencies": {
+    "ava": "^0.16.0",
     "babel-eslint": "^6.1.2",
     "standard": "^7.1.2"
   }
